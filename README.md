@@ -42,7 +42,23 @@ git clone https://github.com/kkh0714/SQL-Query-Generation-with-LoRA-Fine-tuned-C
 cd SQL-Query-Generation-with-LoRA-Fine-tuned-CodeLlama.git
 ```
 
-2. **Install dependencies**:
+2. **Create Virtual Environment**:
+
+```bash
+python -m venv venv
+```
+
+3. **Activate Virtual Environment**
+
+```bash
+# On Windows
+venv\Scripts\activate
+
+# On macOS/Linux:
+source venv/bin/activate
+```
+
+4. **Install the required dependencies**:
 
 ```bash
 pip install -r requirements.txt
