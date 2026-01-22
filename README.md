@@ -45,7 +45,7 @@ cd SQL-Query-Generation-with-LoRA-Fine-tuned-CodeLlama.git
 2. **Create Virtual Environment**:
 
 ```bash
-python -m venv venv
+python3.11 -m venv venv
 ```
 
 3. **Activate Virtual Environment**
